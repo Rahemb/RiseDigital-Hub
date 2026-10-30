@@ -1,0 +1,46 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+data/
+backups/
+*.db
+*.db-*
+*.tsbuildinfo
+test-results/
+
+# Local databases, exports, logs and private uploads
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db-journal
+*.log
+*.log.*
+logs/
+uploads/
+*.dump
+*.bak
+
+# Credentials and local account settings
+.aws/
+.ssh/
+.npmrc
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials.*.json
+service-account*.json
+
+# Internal project reports and tests containing a real customer name.
+# Retained locally; excluded from the public portfolio repository.
+/docs/
+/tests/lead-research.test.ts
+/tests/saved-leads.test.ts
+
+/scripts/http-leads.ts
+/tests/leads.test.ts
